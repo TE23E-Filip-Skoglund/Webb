@@ -1,0 +1,33 @@
+/*Elev: Elias Engström Klass: TE23E*/
+body{
+    background-image: url("./img/moorish-pattern_644416-582.jpg");
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #54d4eb;
+    background-color: whitesmoke;
+    text-align: right;
+}
+
+ul{
+    background-color: #191970;
+}
+
+a{
+    color: #c300ff;
+}
+a:hover{
+    color: indigo;
+    background-color: aqua;
+}
+a:active{
+    color: greenyellow;
+    background-color: tomato;
+}
+
+img{
+    height:400px;
+    width:400px;
+}

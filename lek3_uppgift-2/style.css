@@ -1,0 +1,24 @@
+h1{
+    color: tomato; 
+    text-align: right;
+    background-color: lightblue;
+}
+
+h2{
+    color: lightgreen;
+    background-color: purple;
+}
+li{
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+body{
+    background-image: url(./img/ek.jpg);
+}
+
+p{
+    background-color: white;
+}
