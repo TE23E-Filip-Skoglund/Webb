@@ -1,0 +1,23 @@
+body {
+    background-image: url('./img/winter-snow.jpg');
+    /* Anpassa bakgrundsbildens egenskaper här */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    /* Anpassa storlekar och marginaler för bilder och rubrik */
+  }
+  
+  table {
+    /* Stilar för tabellen, t.ex. border, cellpadding, cellspacing */
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Anpassa z-index för att kontrollera lagerordning */
+  }
