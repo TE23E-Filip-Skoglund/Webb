@@ -1,23 +1,41 @@
 body {
-    background-image: url('./img/winter-snow.jpg');
-    /* Anpassa bakgrundsbildens egenskaper här */
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    /* Anpassa storlekar och marginaler för bilder och rubrik */
-  }
-  
-  table {
-    /* Stilar för tabellen, t.ex. border, cellpadding, cellspacing */
-  }
-  
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Anpassa z-index för att kontrollera lagerordning */
-  }
+  background-image: url('./img/winter-snow.jpg');
+}
+
+.header {
+  display: flex;
+  /* Space-between fungerar bättre än justify content... */
+  justify-content: space-between; 
+  align-items: center;
+  border: 5px solid black;
+}
+
+h1 {
+  background-color: gray;
+  color: white;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ID-Stilar */
+#rtwb {
+  background-color: white;
+  color: red;
+}
+
+#yb {
+  background-color: yellow;
+}
