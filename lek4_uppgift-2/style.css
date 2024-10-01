@@ -1,5 +1,6 @@
 body {
   background-image: url('./img/winter-snow.jpg');
+  font-family: 'Arial', sans-serif;
 }
 
 .header {
@@ -30,10 +31,11 @@ table {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 20px;
   background-color: blanchedalmond;
   color: black;
-  border: 1px solid black;
   border-collapse: collapse;
+  border: 5px solid black;
 }
 
 table tr th {
@@ -44,7 +46,7 @@ table tr th {
 }
 
 table tr td {
-  border: 3px solid black;
+  border: 2px solid red;
   padding: 5px;
 }
 
@@ -53,6 +55,10 @@ table tr td {
   width: 500px;
   margin: 0 auto;
   text-align: center;
+}
+
+.footer-bild img {
+  width: 100%;
 }
 
 
@@ -65,4 +71,8 @@ table tr td {
 
 #yb {
   background-color: yellow;
+}
+
+#rday {
+  color: red;
 }
